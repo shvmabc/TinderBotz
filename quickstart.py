@@ -43,7 +43,7 @@ if __name__ == "__main__":
     # by default the amount is 1, ratio 100% and sleep 1 second
     session.like(amount=10, ratio="72.5%", sleep=1)
     session.dislike(amount=1)
-    session.superlike(amount=1)
+    #session.superlike(amount=1)
     
     # adjust allowed distance for geomatches
     # Note: PARAMETER IS IN KILOMETERS!
@@ -56,7 +56,7 @@ if __name__ == "__main__":
     session.set_sexuality(Sexuality.WOMEN)
 
     # Allow profiles from all over the world to appear
-    session.set_global(True)
+    session.set_global(False)
 
     # Getting matches takes a while, so recommended you load as much as possible from local storage
     # get new matches, with whom you haven't interacted yet
