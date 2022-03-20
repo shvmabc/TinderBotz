@@ -35,7 +35,7 @@ class Session:
 
     HOME_URL = "https://www.tinder.com/app/recs"
 
-    def __init__(self, headless=False, store_session=True, proxy=None, user_data=False):
+    def __init__(self, headless=True, store_session=True, proxy=None, user_data=False):
         self.email = None
         self.may_send_email = False
         self.session_data = {
