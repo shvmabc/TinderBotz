@@ -14,14 +14,14 @@ if __name__ == "__main__":
     session = Session(proxy="23.23.23.23:3128")
 
     # set location (Don't need to be logged in for this)
-    session.set_custom_location(latitude=50.879829, longitude=4.700540)
+    session.set_custom_location(latitude=22.572645, longitude=88.363892)
     
     # replace this with your own email and password!
-    email = "example@gmail.com"
-    password = "password123"
+    email = "abcshvm@gmail.com"
+    password = "Spidey@6039"
     
     # login using your google account with a verified email!
-    session.login_using_google(email, password)
+    #session.login_using_google(email, password)
 
     # Alternatively you can login using facebook with a connected profile!
     session.login_using_facebook(email, password)
@@ -32,9 +32,9 @@ if __name__ == "__main__":
     - phone_number is everything after the prefix (+32)
     NOTE: this is not my phone number :)
     '''
-    country = "Belgium"
-    phone_number = "479011124"
-    session.login_using_sms(country, phone_number)
+    #country = "Belgium"
+    #phone_number = "479011124"
+    #session.login_using_sms(country, phone_number)
 
     # spam likes, dislikes and superlikes
     # to avoid being banned:
