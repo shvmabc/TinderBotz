@@ -17,8 +17,8 @@ if __name__ == "__main__":
     session.set_custom_location(latitude=22.572645, longitude=88.363892)
     
     # replace this with your own email and password!
-    email = "abcshvm@gmail.com"
-    password = "Spidey@6039"
+    email = "gmail.com"
+    password = ""
     
     # login using your google account with a verified email!
     #session.login_using_google(email, password)
